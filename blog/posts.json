@@ -1,0 +1,18 @@
+{
+	"Title": "Blog Title",
+	"Subtitle": "subtitle",
+	"posts": [
+		{
+			"Author": "varyo",
+			"Date": "10. Oct. 2013",
+			"Title": "1st Post Title",
+			"Content": "Lorep ipsom dolor sit amet"
+		},
+		{
+			"Author": "varyo",
+			"Date": "11. Oct. 2013",
+			"Title": "2nd Post Title",
+			"Content": "Lorep ipsom dolor sit amet. Look at <a href='#'>this</a>"
+		}
+	]
+}
