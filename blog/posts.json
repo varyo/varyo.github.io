@@ -4,7 +4,7 @@
 	"posts": [
 		{
 			"Author": "varyo",
-			"Date": "10. Oct. 2013",
+			"Date": "10th Oct. 2013",
             "Tags": "juicy, linux, arch, distribution, tutorial",
 			"Title": "#1 Juicy Linux - Introduction",
 			"Content": "In this series of articles I will record the process of developing an Arch Linux distribution. More precisely I will customize an Arch Linux installation step by step - system setup, desktop environment etc - and eventually share it as a Live system. The name of this project will be 'Juicy Linux' just because I think that's a good name ;)"
