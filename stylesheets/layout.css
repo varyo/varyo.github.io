@@ -73,6 +73,16 @@ noscript {
 	width: 100%;
 }
 
+pre {
+	border: 1px solid #F92672;
+	padding: 3px 10px 3px 10px;
+	margin: 10px 0 10px 0;
+	color: #66D9EF;
+}
+
+ul {
+	margin-top: -3px;
+}
 
 /* #Page Styles
 ================================================== */
