@@ -52,7 +52,30 @@
 		<!-- posts are displayed here -->
 	</div><!-- container -->
 
+	<div id="overview-container" class="container">
+		<!-- all posts are displayed here in a link overview-->
+		<table class="table">
+			<tbody id="overview">
+<!--	Example:	
+				<tr>
+					<td>Name</td>
+					<td>Comments</td>
+					<td>Date</td>
+				</tr>-->
+			</tbody>
+		</table>
+	</div><!-- container -->
+
 	<div id="disqus" class="container">
+		<script type="text/javascript">
+		var disqus_shortname = 'varyo'; 
+		(function () {
+		var s = document.createElement('script'); s.async = true;
+		s.type = 'text/javascript';
+		s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+		</script>
 		<!-- disqus is displayed here -->
 	</div><!-- container -->
 
