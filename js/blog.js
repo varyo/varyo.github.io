@@ -7,7 +7,7 @@ $.processJSON = function( data ) {
     if( postId < 0 ) {
         // iterate over the posts and put them in the table
         $.each( data.posts, function( i, e ) {
-            $( "#overview" ).prepend( '<tr><td><a href="index.html?id='+i+'#disqus_thread" data-disqus-identifier="'+i+'">'+e.Title+'</a></td><td>'+e.Date+'</td></tr>' );
+            $( "#overview" ).prepend( '<tr><td><a href="index.html?id='+i+'">'+e.Title+'</a></td><td><a href="index.html?id='+i+'#disqus_thread" data-disqus-identifier="'+i+'"></a></td><td>'+e.Date+'</td></tr>' );
         });   
     } else {
 
